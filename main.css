@@ -1,0 +1,124 @@
+@font-face {
+	src: url(Fonts/Reclame.ttf);
+	font-family: reclame;
+}
+
+@font-face {
+	src: url(Fonts/Montserrat-Regular.ttf);
+	font-family: montserrat-reg;
+}
+
+@font-face {
+	src: url(Fonts/no_name_37_light.ttf);
+	font-family: no-name;
+}
+
+body {
+	font-family: arial;
+	margin: 0;
+	padding-top: 90px;
+}
+
+header {
+	background: #70AAff; 
+	color: white;
+	margin: 0;
+}
+
+/* The navagation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #70AAff;
+  position: fixed;
+  top: 0;
+  height: 110px;
+  width: 100%;
+}
+
+/* Logo Font*/
+header h1 {
+	font-family: reclame;
+	font-size: 74px;
+	/*text-align: center;*/ 
+	letter-spacing: 3px;
+	margin-left: 40px
+}
+
+.navbar-margin {
+	margin: 50px;
+}
+
+/* Typical Image Format */
+.img-row {
+	margin: 0 10px;
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.img-padding-column {
+	float: right;
+/*  	width: 50%;*/
+}
+
+.android-logo-padding {
+	padding: 5px 0 0 0;
+}
+
+.app-store-column {
+	float: center;
+  	width: 25%;
+  	margin: 0 20px;
+}
+
+.play-store-padding {
+	margin: -35px 0px;
+}
+
+.temp-padding {
+	padding: 200px;
+	text-align: center;
+	border: 3px solid #73AD21;
+}
+/* Quote Format*/
+.quote {
+	text-align: center;
+	font-family: montserrat-reg;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.bold-nice-format {
+	margin: 30px 0px;
+	font-size: 33px;
+	text-align: center;
+	font-weight: bold;
+	font-family: montserrat-reg;
+}
+
+.subsection {
+	overflow: hidden;
+	background-color: #7ED0E2;
+	position: static;
+	top: 0;
+	height: 100px;
+	width: 100%;
+}
+
+.subsection-text {
+	font-family: montserrat-reg;
+	font-size: 25px;
+	text-align:left;
+	color: white;
+	padding: 35px 15px;
+}
+
+/* The text format for the main text in the meshugannah */
+.main-text {
+	font-family: no_name;
+	font-size: 23px;
+	text-align:center;
+	color: black;
+	/*padding: 35px 15px;*/
+}
+
